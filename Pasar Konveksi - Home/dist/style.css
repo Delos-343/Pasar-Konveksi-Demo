@@ -1,0 +1,143 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.navbar-custom {
+  background-color: #7411F6;
+}
+
+nav svg {
+  color: #f1f1f1;
+  display: grid;
+}
+
+.navbar a {
+  transition: all 1s;
+  border-radius: 0.25rem;
+  margin: 0 1rem;
+  color: #F1F1F1;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  transition: all 1s;
+  background-color: #0500FF;
+}
+
+#services-overview {
+  background: url(https://i.postimg.cc/PfvC3wJV/Frame-1.png);
+  repeat: no repeat;
+  background-size: cover;
+}
+
+#services-overview h1 {
+  font-family: "Oleo Script", cursive;
+  font-weight: 400;
+  font-size: 6rem;
+  margin: 3.5rem 0 0 0;
+}
+
+#services-overview h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.1rem;
+  font-weight: 500;
+  width: 58%;
+  margin: 0 auto;
+  text-align: left;
+  margin-right: 12rem;
+}
+
+#services-overview a {
+  transition: all 0.5s;
+  font-weight: 600;
+  margin-left: 35%;
+  border-radius: 5.2px;
+  background-color: #0500FF;
+}
+
+#services-overview a:hover {
+  transition: all 0.5s;
+  background-color: #C0C0C0;
+}
+
+.block {
+  color: white;
+  background-color: black;
+  padding: 5%;
+}
+
+.block-1 {
+  background-color: #324376;
+}
+
+.full-page {
+  height: 100vh;
+}
+
+.block {
+  color: white;
+  align-content: center;
+  padding: 5%;
+}
+
+.block-1 {
+  background-color: #324376;
+}
+
+.block-2 {
+  background-color: #586ba4;
+}
+
+.block-3 {
+  background-color: #f76c5e;
+}
+
+.block-4 {
+  background-color: #f68e5f;
+}
+
+.footer {
+  height: 4.5em;
+  width: 85.15em;
+  padding: 0;
+  background-color: #0500FF;
+}
+
+footer a, footer p {
+  padding: 0;
+  margin: auto;
+  color: #0C0C0C;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+footer i {
+  color: #FFD700;
+}
+
+@media screen only and (max-width: 800px) {
+  #services-overview h5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    width: 58%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .block {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .first-order-reponsive {
+    order: 1;
+  }
+
+  .second-order-responsive {
+    order: 2;
+  }
+}
